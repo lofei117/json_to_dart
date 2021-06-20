@@ -26561,7 +26561,7 @@ s.gas().a8(0,new M.o6(q,this,p,r-1))
 r=p.a+="});"
 return r.charCodeAt(0)==0?r:r},
 gpW:function(){var s=this.a
-s="\t"+s+(".fromJson(Map<String, dynamic> json) => _$"+s+"FromJson(json);")
+s="\tfactory "+s+(".fromJson(Map<String, dynamic> json) => _$"+s+"FromJson(json);")
 return s.charCodeAt(0)==0?s:s},
 gpV:function(){var s="\tMap<String, dynamic> toJson() => _$"+this.a+"ToJson(this);"
 return s.charCodeAt(0)==0?s:s},

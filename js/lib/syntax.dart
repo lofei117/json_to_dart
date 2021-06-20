@@ -301,7 +301,7 @@ class ClassDefinition {
 
   String get _jsonParseFunc {
     final sb = new StringBuffer();
-    sb.write('\t$name');
+    sb.write('\tfactory $name');
     sb.write(
         '.fromJson(Map<String, dynamic> json) => _\$${name}FromJson(json);');
     return sb.toString();
